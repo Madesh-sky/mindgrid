@@ -14,24 +14,29 @@
 
 ## 📸 Screenshots & Showcase
 
-### 1. 2048 & Sudoku
-| 2048 Puzzle | Sudoku (9×9) |
-|:---:|:---:|
-| ![2048 Game](assets/screenshots/game-2048.png) | ![Sudoku](assets/screenshots/sudoku.png) |
+### 1. Home Page & Game Suite
+![MindGrid Home](assets/screenshots/home.png)
 
 ---
 
-### 2. Tic-Tac-Toe & Sliding Puzzles
-| Tic-Tac-Toe (3×3 Classic & 9×9 Ultimate) | 15 / 24 / 35 Sliding Puzzle |
+### 2. Sudoku & 2048
+| Sudoku (9×9 with Rule Validation) | 2048 Tile Merging |
 |:---:|:---:|
-| ![Tic Tac Toe](assets/screenshots/tic-tac-toe.png) | ![15 Puzzle](assets/screenshots/puzzle-15.png) |
+| ![Sudoku](assets/screenshots/sudoku.png) | ![2048 Game](assets/screenshots/game-2048.png) |
 
 ---
 
-### 3. Leaderboard & Match History
-| Real-time Leaderboard | Detailed Match History |
+### 3. Tic-Tac-Toe (Classic 3×3 & Ultimate 9×9)
+| Mode Selection | Ultimate XO (9×9 Meta-Board) |
 |:---:|:---:|
-| ![Leaderboard](assets/screenshots/leaderboard.png) | ![History](assets/screenshots/history.png) |
+| ![Tic Tac Toe Modes](assets/screenshots/tic-tac-toe-mode.png) | ![Ultimate XO](assets/screenshots/ultimate-xo.png) |
+
+---
+
+### 4. Sliding Puzzles & Leaderboards
+| Sliding Puzzles (15 / 24 / 35) | Real-time Leaderboard & History |
+|:---:|:---:|
+| ![Sliding Puzzle](assets/screenshots/puzzle-15.png) | ![Leaderboard](assets/screenshots/leaderboard.png) |
 
 ---
 
@@ -100,6 +105,8 @@ npm install
 ```
 
 ### 3. Configure Environment Variables (Optional)
+
+Copy the `.env.example` file to `.env.local`:
 
 ```bash
 cp .env.example .env.local
