@@ -1,0 +1,26 @@
+.boardContainer {
+  display: inline-block;
+  padding: 12px;
+  background-color: var(--surface-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  margin: var(--space-md) auto;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  width: 320px;
+  height: 320px;
+  background-color: var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+
+@media (min-width: 480px) {
+  .board {
+    width: 360px;
+    height: 360px;
+  }
+}

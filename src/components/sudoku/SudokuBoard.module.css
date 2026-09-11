@@ -1,0 +1,18 @@
+.boardContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--border-strong);
+  border: 2px solid var(--border-strong);
+  gap: 1px;
+}
+
+/* Ensure corners are sharp on the border */

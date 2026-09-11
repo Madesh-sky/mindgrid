@@ -1,0 +1,30 @@
+.cell {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--cell-bg, var(--surface-card));
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+.cell:not(:disabled):hover {
+  background-color: var(--cell-bg-hover, var(--surface-hover));
+}
+
+.cell:disabled {
+  cursor: default;
+}
+
+.x {
+  color: var(--accent-cyan);
+}
+
+.o {
+  color: var(--accent-pink);
+}

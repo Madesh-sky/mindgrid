@@ -1,0 +1,27 @@
+.boardContainer {
+  display: inline-block;
+  padding: 12px;
+  background-color: var(--surface-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  margin: var(--space-md) auto;
+}
+
+.board {
+  display: grid;
+  gap: 8px;
+  width: var(--board-width-mobile, 320px);
+  height: var(--board-width-mobile, 320px);
+  background-color: var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+}
+
+@media (min-width: 480px) {
+  .board {
+    width: var(--board-width-desktop, 360px);
+    height: var(--board-width-desktop, 360px);
+    gap: 10px;
+    padding: 10px;
+  }
+}

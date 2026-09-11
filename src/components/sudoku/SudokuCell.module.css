@@ -1,0 +1,55 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: var(--cell-bg, var(--surface-card));
+  border: 1px solid var(--border-subtle);
+  transition: background-color 0.15s, color 0.15s;
+  user-select: none;
+}
+
+.cell:hover {
+  background-color: var(--cell-bg-hover, var(--surface-hover));
+}
+
+.prefilled {
+  color: var(--text-primary);
+  font-weight: 700;
+  background-color: var(--cell-prefilled, var(--surface));
+}
+
+.user {
+  color: var(--accent-cyan);
+}
+
+.selected {
+  background-color: var(--cell-selected, rgba(0, 255, 255, 0.2)) !important;
+}
+
+.highlighted {
+  background-color: var(--cell-highlight, rgba(0, 255, 255, 0.05));
+}
+
+.invalid {
+  background-color: var(--cell-error, rgba(255, 0, 0, 0.2)) !important;
+  color: var(--text-primary);
+}
+
+.borderBottom {
+  border-bottom: 2px solid var(--border-strong);
+}
+
+.borderRight {
+  border-right: 2px solid var(--border-strong);
+}
+
+@media (min-width: 640px) {
+  .cell {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,18 @@
+.mobileControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.mobileControlsRow {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .mobileControls {
+    display: none;
+  }
+}

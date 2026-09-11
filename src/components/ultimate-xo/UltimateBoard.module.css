@@ -1,0 +1,18 @@
+.ultimateBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--border-strong);
+  padding: 8px;
+  border-radius: var(--radius-md);
+}
+
+@media (max-width: 600px) {
+  .ultimateBoard {
+    gap: 4px;
+    padding: 4px;
+  }
+}
