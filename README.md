@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo & Links
 
-- 🌐 **Live Website:** [mindgrid-madesh-sky.vercel.app](https://mindgrid-madesh-sky.vercel.app) *(or your Vercel deployment URL)*
+- 🌐 **Live Website:** [mindgrid-madesh-sky.vercel.app](https://mindgrid-madesh-sky.vercel.app) **
 - 💻 **GitHub Repository:** [https://github.com/Madesh-sky/mindgrid](https://github.com/Madesh-sky/mindgrid)
 - 📹 **Demo Video:** https://drive.google.com/file/d/1WAmxiULrQyiBkgFbaIR2NxUxZE0m3fXB/view?usp=sharing
 
