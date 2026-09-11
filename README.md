@@ -33,10 +33,17 @@
 
 ---
 
-### 4. Sliding Puzzles & Leaderboards
-| Sliding Puzzles (15 / 24 / 35) | Real-time Leaderboard & History |
+### 4. Sliding Puzzles & In-Game Rules Guide
+| 15 / 24 / 35 Sliding Puzzles | Comprehensive Game Rules |
 |:---:|:---:|
-| ![Sliding Puzzle](assets/screenshots/puzzle-15.png) | ![Leaderboard](assets/screenshots/leaderboard.png) |
+| ![Sliding Puzzle](assets/screenshots/puzzle-15.png) | ![Game Rules](assets/screenshots/rules.png) |
+
+---
+
+### 5. Leaderboard & Match History
+| Real-time Leaderboard | Detailed Match History |
+|:---:|:---:|
+| ![Leaderboard](assets/screenshots/leaderboard.png) | ![History](assets/screenshots/history.png) |
 
 ---
 
