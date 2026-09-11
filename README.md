@@ -33,10 +33,14 @@
 
 ---
 
-### 4. Sliding Puzzles & In-Game Rules Guide
-| 15 / 24 / 35 Sliding Puzzles | Comprehensive Game Rules |
+### 4. Sliding Puzzles & Game Rules Guide
+| 15 / 24 / 35 Sliding Puzzles | Rules Overview |
 |:---:|:---:|
 | ![Sliding Puzzle](assets/screenshots/puzzle-15.png) | ![Game Rules](assets/screenshots/rules.png) |
+
+| Ultimate XO Rules & Mechanics |
+|:---:|
+| ![Ultimate XO Rules Detail](assets/screenshots/rules-detail.png) |
 
 ---
 
