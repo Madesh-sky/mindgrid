@@ -1,6 +1,37 @@
 # MindGrid 🧠
 
-**MindGrid** is a modern, clean, and responsive web platform featuring a curated suite of mathematical, spatial, and strategic logic puzzles. Designed with a consistent dark-mode glassmorphic interface, smooth controls, and built-in leaderboards and game history tracking.
+**MindGrid** is a modern, clean, and responsive web platform featuring a curated suite of mathematical, spatial, and strategic logic puzzles. Built with Next.js, React, TypeScript, and a sleek dark-mode glassmorphic design system.
+
+---
+
+## 🔗 Live Demo & Links
+
+- 🌐 **Live Website:** [mindgrid-madesh-sky.vercel.app](https://mindgrid-madesh-sky.vercel.app) *(or your Vercel deployment URL)*
+- 💻 **GitHub Repository:** [https://github.com/Madesh-sky/mindgrid](https://github.com/Madesh-sky/mindgrid)
+- 📹 **Demo Video:** [Watch Video Walkthrough](https://youtu.be/your-video-id-or-drive-link) *(replace with your recorded video link)*
+
+---
+
+## 📸 Screenshots & Showcase
+
+### 1. 2048 & Sudoku
+| 2048 Puzzle | Sudoku (9×9) |
+|:---:|:---:|
+| ![2048 Game](assets/screenshots/game-2048.png) | ![Sudoku](assets/screenshots/sudoku.png) |
+
+---
+
+### 2. Tic-Tac-Toe & Sliding Puzzles
+| Tic-Tac-Toe (3×3 Classic & 9×9 Ultimate) | 15 / 24 / 35 Sliding Puzzle |
+|:---:|:---:|
+| ![Tic Tac Toe](assets/screenshots/tic-tac-toe.png) | ![15 Puzzle](assets/screenshots/puzzle-15.png) |
+
+---
+
+### 3. Leaderboard & Match History
+| Real-time Leaderboard | Detailed Match History |
+|:---:|:---:|
+| ![Leaderboard](assets/screenshots/leaderboard.png) | ![History](assets/screenshots/history.png) |
 
 ---
 
@@ -33,12 +64,12 @@
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 - **🏆 Dynamic Leaderboards**: Ranks top scores, fastest times, and fewest moves across all game modes.
 - **📜 Detailed Game History**: Automatically logs completed matches, scores, player names, dates, and results.
 - **🛡️ Offline-Resilient Storage**: Zero setup required—scores and match history are saved locally and automatically sync to MongoDB whenever connected.
-- **📖 Comprehensive Game Rules Guide**: In-depth rules, collision rules, and scoring breakdowns accessible from any game.
+- **📖 Comprehensive Game Rules Guide**: In-depth rules, collision mechanics, and scoring breakdowns accessible from any game.
 - **📱 Fully Responsive**: Optimized for desktop keyboards and mobile touchscreens.
 
 ---
@@ -58,7 +89,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sundhip/mindgrid.git
+git clone https://github.com/Madesh-sky/mindgrid.git
 cd mindgrid
 ```
 
@@ -70,8 +101,6 @@ npm install
 
 ### 3. Configure Environment Variables (Optional)
 
-Copy the `.env.example` file to `.env.local`:
-
 ```bash
 cp .env.example .env.local
 ```
@@ -82,7 +111,7 @@ Edit `.env.local` to specify your MongoDB connection string if desired:
 MONGODB_URI=mongodb://localhost:27017/mindgrid
 ```
 
-*(Note: MindGrid works seamlessly without a running database by utilizing local storage).*
+*(Note: MindGrid works seamlessly without a running database by utilizing browser local storage).*
 
 ### 4. Run the Development Server
 
@@ -95,8 +124,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ---
 
 ## 📦 Production Build
-
-To build and run the optimized production build:
 
 ```bash
 # Create production build
